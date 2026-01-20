@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #0b0b0b;
+  color: #eee;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: black;
+}
+
+.logo {
+  color: red;
+  font-size: 24px;
+}
+
+.logo span {
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  color: red;
+}
+
+.hero h3 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.hero p {
+  margin-top: 15px;
+  color: gray;
+}
+
+/* CULTURE */
+.culture {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border: 1px solid red;
+}
+
+/* MUSIC */
+.music {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.video {
+  margin-top: 30px;
+}
+
+/* GALLERY */
+.gallery {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.box {
+  background: red;
+  color: black;
+  padding: 40px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  background: black;
+  text-align: center;
+  padding: 20px;
+  color: gray;
+}
